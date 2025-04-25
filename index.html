@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimeBoy21 - Laman Anime Top</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #0d47a1;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #ff1744;
+    }
+    nav {
+      background-color: #e53935;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .language {
+      float: right;
+      margin-left: auto;
+    }
+    .slider, .anime-list {
+      padding: 20px;
+    }
+    .slider h2, .anime-list h2 {
+      color: #ff1744;
+    }
+    .cards {
+      display: flex;
+      overflow-x: auto;
+      gap: 10px;
+    }
+    .card {
+      min-width: 160px;
+      background-color: #222;
+      border-radius: 8px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+    }
+    .card p {
+      padding: 10px;
+      font-size: 14px;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0d47a1;
+      margin-top: 20px;
+    }
+    .download-btn {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #ff1744;
+      color: #fff;
+      margin-top: 10px;
+      border-radius: 4px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AnimeBoy21</h1>
+    <div class="language">
+      <select>
+        <option value="bm">🇲🇾 BM</option>
+        <option value="en">🇬🇧 English</option>
+      </select>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Anime Series</a>
+    <a href="#">Kategori</a>
+    <a href="#">Tahun</a>
+    <a href="#">Negara</a>
+    <a href="#">Join Telegram</a>
+  </nav>
+
+  <section class="slider">
+    <h2>Anime Top</h2>
+    <div class="cards">
+      <div class="card"><img src="https://i.imgur.com/lGHbyFt.jpg" alt="Solo Leveling"><p>Solo Leveling (2024)</p></div>
+      <div class="card"><img src="https://i.imgur.com/w52jEYl.jpg" alt="Jujutsu Kaisen"><p>Jujutsu Kaisen S2</p></div>
+      <div class="card"><img src="https://i.imgur.com/OBwFZbW.jpg" alt="One Piece"><p>One Piece (2025)</p></div>
+      <div class="card"><img src="https://i.imgur.com/3EJ6RSc.jpg" alt="Wind Breaker"><p>Wind Breaker (2024)</p></div>
+      <div class="card"><img src="https://i.imgur.com/0oIvRlt.jpg" alt="Kimetsu no Yaiba"><p>Kimetsu no Yaiba (2024)</p></div>
+    </div>
+  </section>
+
+  <section class="anime-list">
+    <h2>Nonton AnimeBoy21</h2>
+    <div class="cards">
+      <div class="card"><img src="https://i.imgur.com/gNfPZES.jpg" alt="Boruto"><p>Boruto: Blue Vortex</p></div>
+      <div class="card"><img src="https://i.imgur.com/LuUpUJd.jpg" alt="My Hero"><p>My Hero Academia S6</p></div>
+      <div class="card"><img src="https://i.imgur.com/od1D3rc.jpg" alt="Blue Lock"><p>Blue Lock</p></div>
+      <div class="card"><img src="https://i.imgur.com/f5oFw1m.jpg" alt="Tokyo Revengers"><p>Tokyo Revengers</p></div>
+      <div class="card"><img src="https://i.imgur.com/tnvNUbU.jpg" alt="Hell's Paradise"><p>Hell’s Paradise</p></div>
+      <div class="card"><img src="https://i.imgur.com/AzmwzmU.jpg" alt="Spy x Family"><p>Spy x Family S2</p></div>
+      <div class="card"><img src="https://i.imgur.com/6l8qpn6.jpg" alt="Chainsaw Man"><p>Chainsaw Man</p></div>
+    </div>
+  </section>
+
+  <div class="footer">
+    <p>&copy; 2025 AnimeBoy21. Semua hak cipta terpelihara.</p>
+    <a class="download-btn" href="https://tpi.li/BCFiX" target="_blank">Muat Turun & Sokong Kami</a>
+  </div>
+</body>
+</html>
